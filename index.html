@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <h1>Start Bootstrap</h1>
+        <p id="bx-menu">Menu <i class='bx bx-menu'></i></p>
+        <ul id="menu">
+            <div class="menu">
+                <a href="#s3">Features</a>
+                <a href="#s6">Download</a>
+                <a href=""><i class='bx bx-message-alt'></i>Send Feedback</a>
+            </div>
+        </ul>
+    </header>
+
+    <main>
+        <section id="s1">
+            <h1>Showcase your app beautifully.</h1>
+            <p>Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+            <div class="img-app">
+                <img src="assets/img/google-play-badge.svg" alt="Get it on Google Play">
+                <img src="assets/img/app-store-badge.svg" alt="Download on the App Store">
+            </div>
+            <div class="mobile">
+                <img src="assets/img/portrait_black.png" alt="IphoneX">
+                <video src="assets/img/demo-screen.mp4" loop autoplay></video>
+            </div>
+        </section>
+
+        <section id="s2">
+            <h3>"An intuitive soluion to a common problem that we all face, wrapped up in a single app!"</h3>
+            <img src="assets/img/tnw-logo.svg" alt="Logo TNW">
+        </section>
+
+        <section id="s3">
+            <div class="device">
+                <i class='bx bx-mobile-alt'></i>
+                <h4>Device Mockups</h4>
+                <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+            </div>
+            <div class="flexible">
+                <i class='bx bxs-camera'></i>
+                <h4>Flexible Use</h4>
+                <p>Put an image, video, animation, or anything else in the screen!</p>
+            </div>
+            <div class="free">
+                <i class='bx bx-gift'></i>
+                <h4>Free to Use</h4>
+                <p>As always, this theme is free to download and use for any purpose!</p>
+            </div>
+            <div class="open-source">
+                <i class='bx bxs-badge-check'></i>
+                <h4>Open Source</h4>
+                <p>Since this theme is MIT licensed, you can use it commercially!</p>
+            </div>
+            <div class="my-phone">
+                <img src="assets/img/portrait_black.png" alt="Phone">
+            </div>
+        </section>
+
+        <section id="s4">
+            <h3 style="display: none">Enter a new age of web design</h3>
+            <p>This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+            <div class="space">
+                <img src="assets/img/space.jfif" alt="Space">
+            </div>
+        </section>
+
+        <section id="s5">
+            <h1>Stop waiting.<br> Start building.</h1>
+            <div class="btn">
+                <button>Download for free</button>
+            </div>
+        </section>
+
+        <section id="s6">
+            <h1>Get the app now!</h1>
+            <div class="app"><img src="assets/img/google-play-badge.svg" alt="Google Play download"></div>
+            <div class="app"><img src="assets/img/app-store-badge.svg" alt="App Store download"></div>
+        </section>
+
+        <footer>
+            <p><i class='bx bx-copyright'></i>All Rights Reserved.</p>
+            <div class="footer-a"><a href="">Privacy</a>|<a href="">Terms</a>|<a href="">FAQ</a></div>
+        </footer>
+    </main>
+
+    <script>
+        let btn_menu = document.querySelector('#bx-menu')
+        btn_menu.addEventListener('click', function() {
+            let menu = document.querySelector('#menu')
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        })
+    </script>
+    
+</body>
+</html>
