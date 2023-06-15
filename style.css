@@ -179,6 +179,10 @@ header .menu a:hover {
     animation: rotateSpace 3s ease-in-out infinite;
 }
 
+#s4 img:hover {
+    animation-play-state: paused;
+}
+
 @keyframes rotateSpace {
     0% {
         transform: rotate(0deg);

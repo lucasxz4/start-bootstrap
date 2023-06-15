@@ -6,6 +6,8 @@
     <title>Start Bootstrap</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -32,7 +34,7 @@
             </div>
             <div class="mobile">
                 <img src="assets/img/portrait_black.png" alt="IphoneX">
-                <video src="assets/img/demo-screen.mp4" loop autoplay></video>
+                <video src="assets/img/demo-screen.mp4" autoplay loop></video>
             </div>
         </section>
 
@@ -93,18 +95,6 @@
             <div class="footer-a"><a href="">Privacy</a>|<a href="">Terms</a>|<a href="">FAQ</a></div>
         </footer>
     </main>
-
-    <script>
-        let btn_menu = document.querySelector('#bx-menu')
-        btn_menu.addEventListener('click', function() {
-            let menu = document.querySelector('#menu')
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none'
-            } else {
-                menu.style.display = 'block'
-            }
-        })
-    </script>
     
 </body>
 </html>
